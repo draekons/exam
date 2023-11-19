@@ -1,0 +1,96 @@
+.navbar-toggler {
+    display: block;
+    border: none;
+}
+
+.navbar {
+    background: white;
+}
+
+.navbar-toggler span {
+    font-size: 23px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.collapse:not(.show) {
+    display: none !important;
+}
+
+.icon1 {
+    color: #4b4b4d;
+    font-size: 20px;
+    margin: 0px 20px !important;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: 14px;
+    color: #a5aaaf;
+}
+
+.custom-input {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.custom-input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #80bdff;
+}
+
+.icon2 {
+    margin: 0px 20px;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -9px;
+    right: -14px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .mobile {
+        display: initial;
+    }
+
+    .pc {
+        display: none !important;
+    }
+
+    .icons {
+        display: inline-flex;
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+}

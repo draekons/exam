@@ -1,0 +1,52 @@
+<div class="infinite"
+    infiniteScroll
+    (scrolled)="loadData()">
+    <div *ngFor="let item of items" class="card shadow mt-5">
+        <div class="card-header">
+            <i class="fa-regular fa-lightbulb icon1"></i>
+            <i class="fa-solid fa-clipboard-list mleft"></i>
+        </div>
+        <div class="card-body mobile">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <img src="../../../assets/img/no-image.png" class="img1 shadow mb-3"/>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p class="font-weight-bold">Assignees</p>
+                                    <p class="font-weight-bold text-primary">Assignees</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="font-weight-bold">Workflow<i class="fa-solid fa-pencil"></i></p>
+                                    <p class="font-weight-bold text-primary">Idea Review/PLM II</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="font-weight-bold">Review Score</p>
+                                    <p class="font-weight-bold bg-warning p1">---</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="font-weight-bold mt-5">Idea Summary</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 div1">
+                    <div>
+                        <p>Posted 
+                            <span class="font-weight-bold">Anonymus User</span> 
+                            <i class="fa-regular fa-star text-warning"></i>
+                            <i class="fa-regular fa-star text-warning"></i>
+                            <i class="fa-regular fa-star text-warning"></i>
+                            <i class="fa-regular fa-star text-warning"></i>
+                            <i class="fa-regular fa-star text-warning"></i>
+                            ()
+                        </p>
+                        <p class="text-right"><i class="fa-regular fa-calendar mr-2"></i>June 27, 2019 12:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
